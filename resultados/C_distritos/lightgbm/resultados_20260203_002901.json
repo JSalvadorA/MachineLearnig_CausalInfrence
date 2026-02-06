@@ -1,0 +1,30 @@
+{
+  "modelo": "LightGBM Regressor",
+  "dataset": "C",
+  "timestamp": "2026-02-03T00:29:01.932789",
+  "metricas": {
+    "rmse": 0.713267957688181,
+    "mae": 0.4690554327761069,
+    "r2": 0.9613697723566437
+  },
+  "n_train": 1477,
+  "n_test": 370,
+  "feature_importance": {
+    "mes_absoluto": "4146",
+    "pct_domestico": "2892",
+    "pct_comercial": "2650",
+    "num_unidades": "2395",
+    "pct_subsidiado": "2314",
+    "score_calidad": "1538",
+    "nomdis": "680",
+    "estacion": "205"
+  },
+  "parametros": {
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "num_leaves": 63,
+    "max_bin": 255,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "modelo": "MiniBatchKMeans",
+  "dataset": "A",
+  "timestamp": "2026-02-03T00:20:41.710986",
+  "best_k": 3,
+  "silhouette_scores": {
+    "2": 0.6785898056012017,
+    "3": 0.7941182633329072,
+    "4": 0.7265833036228695,
+    "5": 0.5247145485479908,
+    "6": 0.5360516896542753,
+    "7": 0.45194519042004017,
+    "8": 0.433616490029088
+  },
+  "best_silhouette": 0.7941182633329072,
+  "cluster_profiles": {
+    "0": {
+      "n": 2214404,
+      "pct": 77.22676078196139,
+      "consumo_promedio": 14.917585701746454,
+      "consumo_std": 5.350165599060012,
+      "tarifa_efectiva": 1.753003802601509,
+      "score_calidad": 0.9942171936673044,
+      "registros_totales": 33.76556174934655
+    },
+    "1": {
+      "n": 371362,
+      "pct": 12.951152697299475,
+      "consumo_promedio": 13.370389728546154,
+      "consumo_std": 5.838999089843819,
+      "tarifa_efectiva": 1.730470068976861,
+      "score_calidad": 0.43870443879245635,
+      "registros_totales": 38.58249632434121
+    },
+    "2": {
+      "n": 281639,
+      "pct": 9.822086520739136,
+      "consumo_promedio": 31.96100463348263,
+      "consumo_std": 16.60434622357304,
+      "tarifa_efectiva": 6.284480895287275,
+      "score_calidad": 0.9540601132089832,
+      "registros_totales": 32.66296216078029
+    }
+  },
+  "n_samples": 2867405,
+  "features": [
+    "consumo_promedio",
+    "consumo_std",
+    "tarifa_efectiva",
+    "score_calidad",
+    "registros_totales"
+  ],
+  "mode": "streaming",
+  "batch_size": 10000
+}
