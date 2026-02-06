@@ -1,0 +1,36 @@
+{
+  "modelo": "Isolation Forest",
+  "dataset": "C",
+  "timestamp": "2026-02-02T13:23:57.151375",
+  "contamination": 0.01,
+  "n_total": 1845,
+  "n_anomalias": 19,
+  "pct_anomalias": 1.029810298102981,
+  "comparison": {
+    "consumo_promedio": {
+      "normal": 14.917451171319051,
+      "anomalia": 23.096003239529626,
+      "ratio": 1.5482539861725855
+    },
+    "demanda_total_m3": {
+      "normal": 871879.7208965365,
+      "anomalia": 250483.86368010522,
+      "ratio": 0.28729176476605933
+    },
+    "tarifa_promedio": {
+      "normal": 4.154404361299435,
+      "anomalia": 3.562971366012226,
+      "ratio": 0.8576371138070398
+    },
+    "coef_variacion": {
+      "normal": 4.976887282926945,
+      "anomalia": 26.511244804104976,
+      "ratio": 5.326872660960389
+    },
+    "score_calidad": {
+      "normal": 0.8739447480227217,
+      "anomalia": 0.5336241246385611,
+      "ratio": 0.6105925184010459
+    }
+  }
+}

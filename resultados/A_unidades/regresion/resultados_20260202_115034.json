@@ -1,0 +1,28 @@
+{
+  "modelo": "XGBoost Regressor",
+  "dataset": "A",
+  "timestamp": "2026-02-02T11:50:34.886352",
+  "metricas": {
+    "rmse": 99.48163984471356,
+    "mae": 2.198723275221275,
+    "r2": -0.1922397859884344
+  },
+  "n_train": 389608,
+  "n_test": 97403,
+  "feature_importance": {
+    "consumo_verano": "0.6286609",
+    "distrito": "0.100470304",
+    "categoria": "0.09412974",
+    "consumo_invierno": "0.08736165",
+    "registros_totales": "0.06817413",
+    "horas_dia_prom": "0.018163648",
+    "score_calidad": "0.0024884671",
+    "dias_semana_prom": "0.00043540087",
+    "situdu": "0.00011568249"
+  },
+  "parametros": {
+    "n_estimators": 100,
+    "max_depth": 6,
+    "learning_rate": 0.1
+  }
+}

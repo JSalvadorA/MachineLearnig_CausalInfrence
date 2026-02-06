@@ -1,0 +1,30 @@
+{
+  "modelo": "LightGBM Regressor",
+  "dataset": "B",
+  "timestamp": "2026-02-03T00:12:05.389487",
+  "metricas": {
+    "rmse": 133.03557653549288,
+    "mae": 12.215013740951438,
+    "r2": 0.08674914765154274
+  },
+  "n_train": 1427644,
+  "n_test": 356911,
+  "feature_importance": {
+    "horas_dia_prom": "5093",
+    "registros_totales": "4962",
+    "distrito": "3028",
+    "score_calidad": "2972",
+    "categoria_principal": "1170",
+    "pct_subsidiado": "650",
+    "tipo_predio": "565",
+    "num_unidades_uso": "160"
+  },
+  "parametros": {
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "num_leaves": 63,
+    "max_bin": 255,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  }
+}

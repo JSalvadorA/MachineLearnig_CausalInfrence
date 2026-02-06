@@ -1,0 +1,55 @@
+{
+  "modelo": "MiniBatchKMeans",
+  "dataset": "C",
+  "timestamp": "2026-02-03T00:16:20.573732",
+  "best_k": 3,
+  "silhouette_scores": {
+    "2": 0.30012735331009316,
+    "3": 0.35031079618204775,
+    "4": 0.3109551077180829,
+    "5": 0.26757278607743146,
+    "6": 0.30090700260571845,
+    "7": 0.2537324074242574,
+    "8": 0.2929283437829298
+  },
+  "best_silhouette": 0.35031079618204775,
+  "cluster_profiles": {
+    "0": {
+      "n": 273,
+      "pct": 14.796747967479677,
+      "consumo_promedio": 12.890827229350142,
+      "demanda_total_m3": 241392.9820146414,
+      "tarifa_promedio": 3.676775345656726,
+      "score_calidad": 0.4405507259720971,
+      "num_unidades": 18060.802197802197
+    },
+    "1": {
+      "n": 1103,
+      "pct": 59.78319783197832,
+      "consumo_promedio": 15.873155734167316,
+      "demanda_total_m3": 545477.6794637284,
+      "tarifa_promedio": 4.356036156471562,
+      "score_calidad": 0.9593485170897955,
+      "num_unidades": 33996.446962828646
+    },
+    "2": {
+      "n": 469,
+      "pct": 25.420054200542,
+      "consumo_promedio": 14.180817253689765,
+      "demanda_total_m3": 1981342.0026194192,
+      "tarifa_promedio": 3.9342670996472964,
+      "score_calidad": 0.9115782637893318,
+      "num_unidades": 136629.3091684435
+    }
+  },
+  "n_samples": 1845,
+  "features": [
+    "consumo_promedio",
+    "demanda_total_m3",
+    "tarifa_promedio",
+    "score_calidad",
+    "num_unidades"
+  ],
+  "mode": "streaming",
+  "batch_size": 10000
+}

@@ -1,0 +1,44 @@
+{
+  "modelo": "K-Means Clustering",
+  "dataset": "A",
+  "timestamp": "2026-02-02T12:03:28.892740",
+  "best_k": 2,
+  "silhouette_scores": {
+    "2": 0.9890869177673527,
+    "3": 0.7476109034825235,
+    "4": 0.8061102816675738,
+    "5": 0.8061497817095284,
+    "6": 0.8093947715687898,
+    "7": 0.8093998833266682,
+    "8": 0.8134556786625892
+  },
+  "best_silhouette": 0.9890869177673527,
+  "cluster_profiles": {
+    "0": {
+      "n": 88210,
+      "pct": 99.99206502148112,
+      "consumo_promedio": 16.058099855475962,
+      "consumo_std": 6.399722277819667,
+      "tarifa_efectiva": 2.1898434725863987,
+      "score_calidad": 0.9186550435509429,
+      "registros_totales": 34.45111665344065
+    },
+    "1": {
+      "n": 7,
+      "pct": 0.00793497851887958,
+      "consumo_promedio": 9605.543730158728,
+      "consumo_std": 3596.4326384859332,
+      "tarifa_efectiva": 3.4961382672988157,
+      "score_calidad": 0.8505291005291006,
+      "registros_totales": 30.714285714285715
+    }
+  },
+  "n_samples": 88217,
+  "features": [
+    "consumo_promedio",
+    "consumo_std",
+    "tarifa_efectiva",
+    "score_calidad",
+    "registros_totales"
+  ]
+}

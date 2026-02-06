@@ -1,0 +1,31 @@
+{
+  "modelo": "LightGBM Regressor",
+  "dataset": "A",
+  "timestamp": "2026-02-03T00:17:37.472579",
+  "metricas": {
+    "rmse": 95.07608368692165,
+    "mae": 1.9612807240339556,
+    "r2": 0.24141907173415988
+  },
+  "n_train": 2536631,
+  "n_test": 634158,
+  "feature_importance": {
+    "horas_dia_prom": "4328",
+    "distrito": "3363",
+    "registros_totales": "3079",
+    "consumo_verano": "2719",
+    "consumo_invierno": "1901",
+    "score_calidad": "1502",
+    "categoria": "1282",
+    "dias_semana_prom": "340",
+    "situdu": "86"
+  },
+  "parametros": {
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "num_leaves": 63,
+    "max_bin": 255,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  }
+}

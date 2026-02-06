@@ -1,0 +1,82 @@
+{
+  "modelo": "MiniBatchKMeans",
+  "dataset": "B",
+  "timestamp": "2026-02-03T00:15:52.422190",
+  "best_k": 6,
+  "silhouette_scores": {
+    "2": 0.41748900437050396,
+    "3": 0.4683425633304423,
+    "4": 0.5829513641457236,
+    "5": 0.5967222858923606,
+    "6": 0.5969669424022613,
+    "7": 0.5920043053010108,
+    "8": 0.5001076693610447
+  },
+  "best_silhouette": 0.5969669424022613,
+  "cluster_profiles": {
+    "0": {
+      "n": 701106,
+      "pct": 43.139064608364514,
+      "consumo_promedio": 15.510495573385166,
+      "num_unidades_uso": 1.95266906858592,
+      "tarifa_efectiva": 1.8885531859431595,
+      "score_calidad": 0.9848469734457251,
+      "pct_subsidiado": 0.007804126138745732
+    },
+    "1": {
+      "n": 519193,
+      "pct": 31.945954493629493,
+      "consumo_promedio": 14.848707719375255,
+      "num_unidades_uso": 1.4415602675690928,
+      "tarifa_efectiva": 1.6729266265199567,
+      "score_calidad": 0.9759580589628704,
+      "pct_subsidiado": 0.7764950288920991
+    },
+    "2": {
+      "n": 155937,
+      "pct": 9.594806374263715,
+      "consumo_promedio": 48.001818018702046,
+      "num_unidades_uso": 1.6581504068950923,
+      "tarifa_efectiva": 5.774000598941979,
+      "score_calidad": 0.9625203366004281,
+      "pct_subsidiado": 0.02103479960344257
+    },
+    "3": {
+      "n": 98385,
+      "pct": 6.053630794051032,
+      "consumo_promedio": 12.010851319575332,
+      "num_unidades_uso": 1.3605427656654978,
+      "tarifa_efectiva": 1.9130769467484814,
+      "score_calidad": 0.3296239771988182,
+      "pct_subsidiado": 0.06250320157369833
+    },
+    "4": {
+      "n": 9726,
+      "pct": 0.5984409524108384,
+      "consumo_promedio": 12.066976526627936,
+      "num_unidades_uso": 41.46997738021797,
+      "tarifa_efectiva": 2.085165272923464,
+      "score_calidad": 0.9891349345444985,
+      "pct_subsidiado": 0.015186679720048139
+    },
+    "5": {
+      "n": 140876,
+      "pct": 8.66810277728041,
+      "consumo_promedio": 13.81407503627571,
+      "num_unidades_uso": 1.2551676651807264,
+      "tarifa_efectiva": 1.6270858226788614,
+      "score_calidad": 0.3871634065124472,
+      "pct_subsidiado": 0.8106691542845981
+    }
+  },
+  "n_samples": 1625223,
+  "features": [
+    "consumo_promedio",
+    "num_unidades_uso",
+    "tarifa_efectiva",
+    "score_calidad",
+    "pct_subsidiado"
+  ],
+  "mode": "streaming",
+  "batch_size": 10000
+}

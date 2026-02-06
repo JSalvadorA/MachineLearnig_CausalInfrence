@@ -1,0 +1,53 @@
+{
+  "modelo": "K-Means Clustering",
+  "dataset": "C",
+  "timestamp": "2026-02-02T13:23:17.944864",
+  "best_k": 3,
+  "silhouette_scores": {
+    "2": 0.3002954226172726,
+    "3": 0.35031079618204775,
+    "4": 0.30499202499246825,
+    "5": 0.3094041788464777,
+    "6": 0.2866346280402122,
+    "7": 0.30114650513695146,
+    "8": 0.31624389999666946
+  },
+  "best_silhouette": 0.35031079618204775,
+  "cluster_profiles": {
+    "0": {
+      "n": 390,
+      "pct": 21.138211382113823,
+      "consumo_promedio": 12.9838914819427,
+      "demanda_total_m3": 381478.37949048413,
+      "tarifa_promedio": 3.6726556169914977,
+      "score_calidad": 0.5112976491079889,
+      "num_unidades": 31665.728205128205
+    },
+    "1": {
+      "n": 1025,
+      "pct": 55.55555555555556,
+      "consumo_promedio": 15.729884413712481,
+      "demanda_total_m3": 529822.9913533723,
+      "tarifa_promedio": 4.384482389947483,
+      "score_calidad": 0.9770501959074078,
+      "num_unidades": 33459.31902439024
+    },
+    "2": {
+      "n": 430,
+      "pct": 23.306233062330623,
+      "consumo_promedio": 15.0959086008528,
+      "demanda_total_m3": 2104573.0921593076,
+      "tarifa_promedio": 4.0167643706142915,
+      "score_calidad": 0.9420451960474742,
+      "num_unidades": 139214.86046511628
+    }
+  },
+  "n_samples": 1845,
+  "features": [
+    "consumo_promedio",
+    "demanda_total_m3",
+    "tarifa_promedio",
+    "score_calidad",
+    "num_unidades"
+  ]
+}

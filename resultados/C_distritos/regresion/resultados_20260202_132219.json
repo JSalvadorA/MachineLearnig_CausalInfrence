@@ -1,0 +1,27 @@
+{
+  "modelo": "XGBoost Regressor",
+  "dataset": "C",
+  "timestamp": "2026-02-02T13:22:19.501051",
+  "metricas": {
+    "rmse": 0.8687455583481185,
+    "mae": 0.5491283386844021,
+    "r2": 0.9426930846125259
+  },
+  "n_train": 1477,
+  "n_test": 370,
+  "feature_importance": {
+    "nomdis": "0.25066918",
+    "pct_comercial": "0.19431116",
+    "score_calidad": "0.16947319",
+    "num_unidades": "0.1293438",
+    "pct_subsidiado": "0.11104087",
+    "pct_domestico": "0.09068474",
+    "mes_absoluto": "0.03476119",
+    "estacion": "0.019715868"
+  },
+  "parametros": {
+    "n_estimators": 100,
+    "max_depth": 6,
+    "learning_rate": 0.1
+  }
+}

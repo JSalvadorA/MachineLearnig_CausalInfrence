@@ -1,0 +1,98 @@
+{
+  "modelo": "K-Means Clustering",
+  "dataset": "B",
+  "timestamp": "2026-02-02T14:54:45.944550",
+  "best_k": 8,
+  "silhouette_scores": {
+    "2": 0.42852926846696127,
+    "3": 0.5075884634016239,
+    "4": 0.6045961487427303,
+    "5": 0.6068755303016502,
+    "6": 0.6081100969231819,
+    "7": 0.6109701487466256,
+    "8": 0.6128683599997552
+  },
+  "best_silhouette": 0.6128683599997552,
+  "cluster_profiles": {
+    "0": {
+      "n": 11810,
+      "pct": 12.973317368426834,
+      "consumo_promedio": 13.113877804391874,
+      "num_unidades_uso": 1.335393734123624,
+      "tarifa_efectiva": 1.741443935539512,
+      "score_calidad": 0.3266304794183791,
+      "pct_subsidiado": 0.47247717165032804
+    },
+    "1": {
+      "n": 39903,
+      "pct": 43.83355486471939,
+      "consumo_promedio": 15.52619817541882,
+      "num_unidades_uso": 2.242412851164073,
+      "tarifa_efectiva": 1.8851452723829905,
+      "score_calidad": 0.9838862590184614,
+      "pct_subsidiado": 0.007470470007227258
+    },
+    "2": {
+      "n": 9054,
+      "pct": 9.945843814880318,
+      "consumo_promedio": 32.606526727220086,
+      "num_unidades_uso": 1.868345482659598,
+      "tarifa_efectiva": 5.674137244239861,
+      "score_calidad": 0.9606329871302313,
+      "pct_subsidiado": 0.04148405034976511
+    },
+    "3": {
+      "n": 4,
+      "pct": 0.004394010963057353,
+      "consumo_promedio": 12338.856303418803,
+      "num_unidades_uso": 1.0,
+      "tarifa_efectiva": 3.5012727992949193,
+      "score_calidad": 0.5486111111111112,
+      "pct_subsidiado": 0.0
+    },
+    "4": {
+      "n": 30194,
+      "pct": 33.16819175463843,
+      "consumo_promedio": 14.799857715334623,
+      "num_unidades_uso": 1.4283301318142678,
+      "tarifa_efectiva": 1.646430141094963,
+      "score_calidad": 0.9602222362213303,
+      "pct_subsidiado": 0.782990440254785
+    },
+    "5": {
+      "n": 2,
+      "pct": 0.0021970054815286764,
+      "consumo_promedio": 10.476749679499488,
+      "num_unidades_uso": 1664.0,
+      "tarifa_efectiva": 1.7510608058881898,
+      "score_calidad": 1.0,
+      "pct_subsidiado": 0.0
+    },
+    "6": {
+      "n": 30,
+      "pct": 0.03295508222293015,
+      "consumo_promedio": 11.025778022772391,
+      "num_unidades_uso": 230.03333333333333,
+      "tarifa_efectiva": 1.9894668220505092,
+      "score_calidad": 0.9629641350210971,
+      "pct_subsidiado": 0.03511396011396011
+    },
+    "7": {
+      "n": 36,
+      "pct": 0.039546098667516176,
+      "consumo_promedio": 2235.225024250441,
+      "num_unidades_uso": 1.0,
+      "tarifa_efectiva": 5.416327166370522,
+      "score_calidad": 0.8910108024691357,
+      "pct_subsidiado": 0.0
+    }
+  },
+  "n_samples": 91033,
+  "features": [
+    "consumo_promedio",
+    "num_unidades_uso",
+    "tarifa_efectiva",
+    "score_calidad",
+    "pct_subsidiado"
+  ]
+}
